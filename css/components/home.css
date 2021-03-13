@@ -1,0 +1,98 @@
+.main-home {
+    background-image: url(../../images/bgs/cover\ poto.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 300px 20%;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content>p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.satauri {
+    font-size: 30px;
+}
+
+.section-top>h3 {
+    padding: 150px 40% 50px 15%;
+    position: relative;
+}
+
+.section-top>h3::after {
+    content: "";
+    position: absolute;
+    width: 1200px;
+    height: 3px;
+    background-color: #EBEBEB;
+    bottom: 0;
+    left: 15%;
+}
+
+
+/* .lorem {
+    padding: 150px 40% 50px 15%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: flex-end;
+} */
+
+.meore {
+    margin-left: 100px;
+}
+
+.section-top>.lorem {
+    padding: 70px 15%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: #7D7D7D;
+    font-size: 17px;
+}
+
+.charcho {
+    margin-top: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: #F7F7F7;
+}
+
+.garegani {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 100px 20% 20px 15%;
+    font-size: 24px;
+}
+
+.charcho>.asoebi {
+    padding: 20px 20% 20px 15%;
+    /* display: flex; */
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: #7D7D7D;
+    font-size: 17px;
+}
+
+.asoebi>.meore-joxi {
+    padding-left: 170px;
+}
+
+.asoebi>p {
+    display: flex;
+    position: absolute;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.asoebi>.mesame-zoli {
+    padding-right: 10px;
+}

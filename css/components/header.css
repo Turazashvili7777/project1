@@ -1,0 +1,53 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 4%;
+    border: 1px solid rosybrown;
+    position: relative;
+}
+
+.li-list {
+    display: flex;
+}
+
+.graycone {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.li-list a {
+    font-size: 18px;
+    font-family: 400;
+    color: black;
+    text-transform: capitalize;
+}
+
+.li-list>li {
+    margin-left: 70px;
+}
+
+.li-list a:hover {
+    color: #D4963E;
+}
+
+.warwera {
+    font-size: 18px;
+    font-weight: 550;
+    display: block;
+    width: 300px;
+    height: 100px;
+    /* padding-top: 0;
+    padding-bottom: 0; */
+    margin-right: 0 auto;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.warwera:hover {
+    background-color: #C29B73;
+}
